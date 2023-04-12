@@ -1,0 +1,15 @@
+ Write a program to find whether given no. is even or odd. -
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int num;
+clrscr();
+printf("Enter an Integer: ");
+scanf("%d",&num);
+if(num%2==0)
+printf("%d is Even",num);
+else
+printf("%d is odd",num);
+getch();
+}
