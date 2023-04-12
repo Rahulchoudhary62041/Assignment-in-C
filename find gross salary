@@ -1,0 +1,29 @@
+// Write a program to find gross salary.
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int basic_salary;
+float hra, da, gross_salary;
+clrscr();
+printf(“Enter Basic Salary”);
+scanf("%d",&basic_salary);
+if(basic_salary <= 25000)
+{
+da=(basic_salary*10)/100;
+hra=(basic_salary * 15)/100;
+} 
+else if(basic_salary<=40000){
+da=(basic_salary*12)/100;
+hra=(basic_salary*18)/100;
+}
+else
+{
+hra=(basic_salary*20)/100;
+da=(basic_salary*15)/100;
+}
+gross_salary=basic_salary+hra+da;
+printf(''Gross Salary=%.2f",gross_salary);
+getch();
+}
