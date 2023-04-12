@@ -1,0 +1,15 @@
+//Write a program to show swap of two no’s using third variable.
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int a= 5, b = 10, temp;
+clrscr();
+printf(''\nBefore swapping a=%d,b =%d", a,b);
+temp =a;
+a=b;
+b = temp;
+printf("\nAfter swapping a=%d,b=%d", a, b);
+getch();
+}
