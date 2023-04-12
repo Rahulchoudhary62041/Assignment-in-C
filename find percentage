@@ -1,0 +1,16 @@
+//Write a program to calculate sum of 5 subjects and find percentage.
+
+#include<stdio.h> 
+#include<conio.h>
+int main() 
+{
+float sub1, sub2, sub3, sub4, sub5, total,percentage;
+clrscr();
+printf("Enter marks of 5 subjects: ");
+scanf("%f%f%f%f%f", &Sub1, &Sub2, &sub3,&sub4, &sub5);
+total = sub1 + sub2 + sub3 + sub4 + sub5;
+percentage = (total / 500) * 100;
+printf("Total Marks = %.2f\n", total);
+printf(""Percentage = %.2f", percentage);
+getch();
+}
