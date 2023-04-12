@@ -1,0 +1,18 @@
+//Write a program to find the simple interest.
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+float p,r,t,si;
+clrscr();
+printf("Enter the principal amount (in Rs.): ");
+scanf("%f", &p);
+printf(""Enter the rate of interest (in %): ");
+scanf("%f", &r);
+printf(""Enter the time duration (in years): ");
+scanf ('"%f'',&t);
+si = (p * r * t) / 100;
+printf(""The Simple Interest is %.2f\n", si);
+getch 0;
+}
