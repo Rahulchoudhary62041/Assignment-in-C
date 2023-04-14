@@ -1,0 +1,19 @@
+//Write a program to reverse the digits of the number entered by user.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int number,reversed=0;
+clrscr();
+printf("Enter any number: ");
+scanf("%d",&number);
+while(number!=0)
+{
+reversed=(reversed*10)+(number%10);
+number/=10;
+}
+printf("Reversed = %d",reversed);
+getch();
+}
+
