@@ -1,0 +1,18 @@
+//Write a program to accept two numbers and check whether both are equal.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int num1,num2;
+clrscr();
+printf("Enter 1st Number: ");
+scanf("%d",&num1);
+printf("Enter 2nd Number: ");
+scanf("%d",&num2);
+if(num1==num2)
+printf("Number1 and Number2 are Equal\n");
+else
+printf("Number1 and Number2 are not Equal\n");
+getch();
+}
