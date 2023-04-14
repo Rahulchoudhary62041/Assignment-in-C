@@ -1,0 +1,25 @@
+//Write a program to print Fibonacci series up to 100.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,s=0;
+clrscr();
+a=0;
+b=1;
+printf("Fibonacci Series=\n%d\t%d",a,b);
+do
+{
+s=a+b;
+if(s>=100)
+{
+break;
+}
+printf("\t%d",s);
+a=b;
+b=s;
+}
+while(s<=100);
+getch();
+}
