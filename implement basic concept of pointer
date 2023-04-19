@@ -1,0 +1,17 @@
+//Write a program to implement basic concepts of pointer. -
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int n1,n2,*p,*q,sum;
+clrscr();
+printf("Enter two Numbers: ");
+scanf("%d%d",&n1,&n2);
+p=&n1;
+q=&n2;
+sum=*p+*q;
+printf("Sum= %d\n",sum);
+printf("Sum= %d\n",&sum);
+getch();
+}
+
